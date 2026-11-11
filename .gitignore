@@ -1,0 +1,38 @@
+# Dependencies
+node_modules/
+my-app/node_modules/
+
+# Expo
+.expo/
+my-app/.expo/
+dist/
+my-app/dist/
+web-build/
+my-app/web-build/
+expo-env.d.ts
+my-app/expo-env.d.ts
+
+# Native & Build
+.kotlin/
+*.orig.*
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+my-app/ios/
+my-app/android/
+
+# Metro & Debug
+.metro-health-check*
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+
+# OS & Temporary
+.DS_Store
+Thumbs.db
+*.pem
+.env*.local
+*.tsbuildinfo
+scratch/
